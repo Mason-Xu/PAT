@@ -1,12 +1,12 @@
 void selectSort(){
-	for(int i = 1; i <= n; i++){ //è¿›è¡Œnæ¬¡æ“ä½œ
-		int k = i;  //æ¯æ¬¡è®©ké‡æ–°=i
-		for(int j = i; j <= n; j++){  //ä½¿j=iï¼Œæ¯”è¾ƒj-i+1æ¬¡
+	for(int i = 1; i <= n; i++){ //½øÐÐnÌÉÅÅÐò 
+		int k = i;  //  ÁÙÊ±´æ·Åi 
+		for(int j = i; j <= n; j++){  //Ñ¡³ö×îÐ¡ÔªËØµÄÏÂ±ê 
 			if(A[j] < A[k]){
-				k = j; //é€‰å‡ºæœ€å°çš„å…ƒç´ ï¼Œä¸‹æ ‡ä½k
+				k = j; //Ñ¡³ö×îÐ¡ÔªËØ 
 			}
 		}
-		int temp = A[i]; //äº¤æ¢å…ƒç´ 
+		int temp = A[i]; //½»»»A[k] ºÍ A[i]; 
 		A[i] = A[k];
 		A[k] = temp;
 	}
