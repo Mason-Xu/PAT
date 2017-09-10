@@ -144,6 +144,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="4.1.1 选择排序.cpp" />
+    <ClCompile Include="冒泡排序.cpp" />
     <ClCompile Include="插入排序.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
